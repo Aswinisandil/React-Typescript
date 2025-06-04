@@ -1,5 +1,10 @@
 # React + TypeScript + Vite
 
+This is a simple and interactive Goals Tracker web application built using React and TypeScript. It allows users to enter a goal and a corresponding summary using input fields, and add them to a list with the click of a button. The project demonstrates core React concepts like component state management, event handling, and conditional rendering, while leveraging TypeScript for type safety and developer productivity.
+
+👉 View Deployed App
+https://react-typescript-d06e52.netlify.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
