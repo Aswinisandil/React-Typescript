@@ -12,11 +12,11 @@ type CourseGoalList = {
 export default function CourseGoalList({ goals, onDeleteGoal }: CourseGoalList) {
 
     if(goals.length === 0){
-        return<Infobox mode="hint">You have no Course goals yet. Start adding some !</Infobox>
+        return<Infobox mode="hint">You have no goals yet. Start adding some !</Infobox>
      }
 
      let warningBox: ReactNode;
-     if(goals.length >= 1){
+     if(goals.length >= 5){
         warningBox = <Infobox mode="warning" severity="high"> You have reached max goals. Dont put too much on your plate!.</Infobox>
      }
     return (

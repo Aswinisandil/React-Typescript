@@ -31,7 +31,7 @@ export default function App() {
 
   return <main>
     <Header image={{ src: goalsImage, alt: 'A list of goals' }}>
-      <h1>Your Course Goals</h1>
+      <h1>Your Goals</h1>
     </Header>
     {/* <button onClick={handleGoal}>Add Goal</button> */}
     <NewGoal onAddGoal={handleAddGoal} />
